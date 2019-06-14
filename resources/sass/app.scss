@@ -1,0 +1,62 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~owl.carousel/dist/assets/owl.carousel.css';
+
+.background-blur {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.form-wrapper {
+    min-height: 520px;
+
+    > div {
+        max-width: 480px;
+        width: 100%;
+    }
+}
+
+.owl-carousel {
+    position: relative;
+
+    .owl-nav button {
+        background-color: #FFF !important;
+        box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07) !important;
+        font-size: 32px !important;
+        position: absolute;
+        top: calc(50% - 76.5px);
+
+        &.owl-next {
+            border-radius: 50px;
+            padding: 0px 25px 3px !important;
+            right: -70px;
+        }
+
+        &.owl-prev {
+            border-radius: 50px;
+            padding: 0px 25px 3px !important;
+            left: -70px;
+        }
+    }
+}
+
+.service-request-media-list,
+.service-request-bid {
+    .business-avatar {
+        max-height: 75px;
+        max-width: 120px;
+    }
+
+    .media-list .row > div {
+        max-width: 120px !important;
+    }
+}

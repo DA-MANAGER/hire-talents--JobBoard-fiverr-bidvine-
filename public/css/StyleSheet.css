@@ -1,0 +1,491 @@
+/* page font */
+
+body {
+    font-family: 'sans-serif', Tahoma, Geneva, Verdana, Segoe UI;
+}
+
+
+/* all h2 have this font attribute */
+
+/* h2 {
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 30px;
+} */
+
+
+/* all h3 have this font attribute */
+
+/* h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+} */
+
+
+/* all h4 have this font attribute */
+
+/* h4 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+} */
+
+
+/* all jumbotron h1 have this font attribute */
+
+.jumbotron h1 {
+    margin-bottom: 24px;
+    margin-top: 0;
+    font-size: 55px;
+    line-height: 60px;
+}
+
+
+/* all jumbotron h3 have this font attribute */
+
+.jumbotron h3 {
+    margin-bottom: 40px;
+    margin-top: 0;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+/* default jumbotron style */
+
+div.jumbotron {
+    background: #287120;
+    padding: 120px;
+}
+
+
+/* header navigation bar width */
+
+div.nav-header {
+    max-width: 950px;
+}
+
+
+/* Individual tabs width */
+
+div.about-us {
+    max-width: 950px;
+}
+
+div.career-page {
+    max-width: 950px;
+}
+
+div.team-page {
+    max-width: 950px;
+}
+
+div.press-page {
+    max-width: 950px;
+}
+
+
+/* navigation link style */
+
+/* .nav-link {
+    font-size: 13px;
+    color: #000;
+    font-weight: 500;
+} */
+
+.nav-tabs .nav-link:hover {
+    color: #287120;
+}
+
+.nav-tabs .nav-link.active {
+    color: #287120;
+}
+
+
+/* About social buttons margin style */
+
+div.social-buttons {
+    margin-bottom: 50px;
+}
+
+
+/* About social buttons font awesome style */
+
+/* .fa {
+    font-size: 30px;
+    color: #aaa;
+    margin-right: 20px;
+} */
+
+.price-checkmark {
+    color: #287120;
+}
+
+
+/* Bootstrap card styles */
+
+.card {
+    margin-bottom: 25px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-block hr {
+    width: 80px;
+    margin-top: 23px;
+    margin-bottom: 25px;
+    border-top: 2px solid #e0e0e0;
+}
+
+.card-title {
+    color: #287120;
+}
+
+.terms-card {
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.card-terms-body {
+    margin: 25px 50px 75px;
+}
+
+.card.starter {
+    border-top: 8px solid #ed9000;
+}
+
+.card.pro {
+    border-top: 8px solid #6fda44;
+}
+
+.card.expert {
+    border-top: 8px solid #287120;
+}
+
+
+/* Career page & team page person styles */
+
+div.person-sample {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.person-sample hr {
+    width: 80px;
+    margin-top: 23px;
+    margin-bottom: 25px;
+    border-top: 2px solid #e0e0e0;
+}
+
+div.place-holderimg {
+    cursor: pointer;
+    background: #aaa;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all;
+    margin: 30px;
+}
+
+p.person-description {
+    font-style: normal;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #999;
+}
+
+
+/* Pricing page styles */
+
+.pricing-pageheader {
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* Bootstrap table styles */
+
+.table {
+    margin-bottom: 80px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+th.border-top-0.border-left-0.border-bottom-0.p-l-0.visible-lg {
+    width: 25%;
+}
+
+.table thead th {
+    vertical-align: middle;
+    border-bottom: 1px solid #eceeef;
+}
+
+th.bg-white.text-center.no-toggler {
+    width: 25%;
+    padding: 0px 30px;
+}
+
+th.bg-white.text-center.no-toggler.starter {
+    border-top: 8px solid #ed9000;
+}
+
+th.bg-white.text-center.no-toggler.pro {
+    border-top: 8px solid #6fda44;
+}
+
+th.bg-white.text-center.no-toggler.expert {
+    border-top: 8px solid #287120;
+}
+
+th.background-table {
+    background: #f2f2f2;
+}
+
+td.background-table {
+    background: #f2f2f2;
+}
+
+.table-header {
+    margin: 33px -5px 14px;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: -1px;
+    font-weight: 300;
+    color: #000;
+}
+
+.text-short {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 22px;
+    color: #999;
+}
+
+.text-long {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 22px;
+    color: #000;
+}
+
+
+/* Career page button styles */
+
+a.career-postion-btn {
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 19px;
+    padding-right: 19px;
+    text-decoration: none;
+    font-weight: 600;
+    transition-duration: 1s;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+a.career-postion-btn:hover {
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    color: #287120;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition-duration: 1s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Final paragragh on career page style */
+
+div.final-paragraphcareer {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+/* Second jumbotron  edge-edge style */
+
+.jumbotron.jumbotron-fluid.text-center.text-white.jumboforce {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.jumbotron.jumbotron-fluid.team-jumbo.text-center.text-black-50.jumboforce {
+    background: #f8fafc;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+
+/* Hiretalentz logo on associated brands jumbotron */
+
+.brand-logos.col-md-2 div img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+/* Press page styles */
+
+div.news-tab {
+    margin-bottom: 80px;
+}
+
+div.news-card {
+    margin: 20px;
+}
+
+p.date-card {
+    font-size: 14px;
+    color: #aaa;
+}
+
+
+/* Price page button styles */
+
+a.price-postion-btn {
+    cursor: pointer;
+    border: 2px solid #287120;
+    color: #287120;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    background-color: transparent;
+    text-decoration: none;
+    transition-duration: 1s;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+a.price-postion-btn:hover {
+    cursor: pointer;
+    border: 2px solid #287120;
+    color: #ffffff;
+    background-color: #287120;
+    text-decoration: none;
+    font-weight: 400;
+    transition-duration: 1s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+div.mobile-content {
+    display: none;
+}
+
+
+/* max-width styles for screen size 480px*/
+
+@media(max-width:480px) {
+    h1.font-weight-bold.pricing-jumbotronh1 {
+        margin-bottom: 18px;
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .jumbotron h1 {
+        margin-bottom: 24px;
+        margin-top: 0;
+        font-size: 35px;
+        line-height: 45px;
+    }
+    p.lead.pricing-jumbotronp {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .jumbotron p {
+        margin-bottom: 24px;
+        margin-top: 0;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .jumbotron h3 {
+        margin-bottom: 40px;
+        margin-top: 0;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 32px;
+        font-weight: 600;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    h3 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 0 11px;
+    }
+    a.career-postion-btn {
+        cursor: pointer;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 400;
+        background-color: transparent;
+        text-decoration: none;
+        transition-duration: 1s;
+        border-radius: 8px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+    a.career-postion-btn:hover {
+        cursor: pointer;
+        border: 2px solid #ffffff;
+        color: #287120;
+        background-color: #ffffff;
+        text-decoration: none;
+        font-weight: 400;
+        transition-duration: 1s;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+    li {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    div.mobile-content {
+        display: block;
+    }
+    div.bigscreen-content {
+        display: none;
+    }
+}
+
+@media(max-width:768px) {}
